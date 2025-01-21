@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Ensure no margin on body */
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%; /* Set header width to 100% */
+    position: relative; /* Ensure it stays at the top */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.square {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    background: #ffffff;
+    border: 2px solid #35424a;
+    border-radius: 10px;
+    margin: 10px auto; /* Center the box with auto margins */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #35424a;
+}
+
+.price {
+    font-size: 24px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.buy-button {
+    background-color: #28a745; /* Green */
+}
+
+.buy-button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.about, .disclaimer {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left for better readability */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 20px
