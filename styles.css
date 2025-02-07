@@ -36,19 +36,20 @@ body {
         }
 
         .buy-button {
-            background-color: #e74c3c;
-            font-size: 18px;
-            padding: 15px 40px;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin: 10px 0;
-        }
+    background-color: #4CAF50;  /* Attractive green */
+    font-size: 18px;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
 
-        .buy-button:hover {
-            background-color: #c0392b;
-        }
+.buy-button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
+
 
         .about, .disclaimer, .statistics {
             margin-top: 20px;
