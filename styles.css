@@ -45,8 +45,22 @@ body {
         width: 100%;
     }
 
-    @media (max-width: 600px) {
-        .square {
-            width: 90%;
-        }
+   @media (max-width: 600px) {
+    .square {
+        width: 90%;
     }
+
+    h2 {
+        font-size: 20px; /* Reduced font size on mobile */
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
