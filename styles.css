@@ -19,7 +19,7 @@ body {
 
     .square {
         display: inline-block;
-        width: 90%;
+        width: 100%;
         max-width: 600px;
         background: #ffffff;
         border: 2px solid #35424a;
@@ -35,6 +35,38 @@ body {
         line-height: 1.5;
     }
 
+    .price {
+        font-size: 24px;
+        font-weight: bold;
+        color: #35424a;
+        margin-bottom: 20px;
+    }
+
+    .buy-button {
+        background-color: #28a745;
+        color: white;
+        padding: 15px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .about-us, .disclaimer {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+    .buy-button:hover {
+        background-color: #218838;
+    }
+
     footer {
         text-align: center;
         padding: 10px 0;
@@ -45,22 +77,12 @@ body {
         width: 100%;
     }
 
-   @media (max-width: 600px) {
-    .square {
-        width: 90%;
-    }
+    @media (max-width: 600px) {
+        .square {
+            width: 90%;
+        }
 
-    h2 {
-        font-size: 20px; /* Reduced font size on mobile */
+        h2 {
+            font-size: 20px; /* Reduced font size on mobile */
+        }
     }
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
